@@ -10,5 +10,9 @@ int main()
     int age;
     cout << "Input your age: ";
     cin >> age;
-    cout << "You are " << age << " years old.";
+    if (age > 20) {
+        cout << "You are " << age << " years old." << endl;
+    } else {
+        cout << "You are still young." << endl;
+    }
 }
