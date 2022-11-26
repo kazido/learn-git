@@ -14,5 +14,7 @@ int main()
         cout << "You are " << age << " years old." << endl;
     } else {
         cout << "You are still young." << endl;
+        cout << "But that's okay." << endl;
     }
+    cout << "No students here!" << endl;
 }
