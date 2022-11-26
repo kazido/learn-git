@@ -14,4 +14,4 @@ Student::Student(int id, string first_name, string last_name, int age) {
     cout << "ID: " << id << std::endl;
     cout << "Name: " << first_name << " " << last_name << std::endl;
     cout << "Age: " << age << std::endl;
-
+};
